@@ -141,7 +141,7 @@ Below is a concrete, implementation‑oriented block diagram and the key enginee
 
 ---
 
-##  Limitations & Risks
+##  Possible negatives about this idea
 
 - **Physiology:** electrode placement drift, sweat/skin impedance, inter‑user variability, crosstalk between muscles.
 - **Signal:** motion artifacts <20 Hz, mains (50/60 Hz) hum, EMI from motors; need mechanical isolation and good cabling.
@@ -162,7 +162,7 @@ Below is a concrete, implementation‑oriented block diagram and the key enginee
 
 ---
 
-##  What to Build by Oct 6 (minimum functional demo)
+##  By Oct 6 (minimum functional demo)
 
 1. **4‑ch prototype** with BioAmp EXG Pill → ESP32‑S3 internal ADC @ 2 kS/s/ch.
 2. **Firmware** sampling + RMS/envelope + threshold classifier → PWM to 1–2 servos.
